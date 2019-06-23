@@ -8,7 +8,7 @@ module.exports = function (app) {
     app.use('/', router);
 
     //MODULES 
-    const quiz = require(pathServer + quiz)();
+    const quiz = require(pathServer + 'quiz')();
     router.use(config.apiPrefix + '/quiz', quiz);
 
 
