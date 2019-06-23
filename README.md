@@ -1,1 +1,1 @@
-# diabets-quiz
+# azb-template-js
