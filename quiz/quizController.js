@@ -2,11 +2,13 @@
 const fs = require('fs');
 
 module.exports = function quizController(quizRepository) {
-    function question(req, res) {
-        console.log('>>>', req.body, req.params);
-        // fs.writeFile('./file.txt', JSON.str)
+    async function question(req, res) {
+        console.log('>>>', req.body);
+        // fs.writeFile('./file.txt', JSON.str);
+        const data = req.body.answer;
+        const success = await quizRepository.updateQuizAnswer(data);
         res.json({
-            success: true,
+            success,
             message: 'How are you today'
         })
     }
