@@ -4,6 +4,6 @@ const router = express.Router();
 
 module.exports = (Controller) => {
 
-    router.post('/question', Controller.question);
+    router.put('/question', Controller.question);
     return router;
 };
