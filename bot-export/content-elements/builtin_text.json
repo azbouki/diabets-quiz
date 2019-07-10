@@ -1,0 +1,63 @@
+[
+  {
+    "id": "builtin_text-l0g3bz",
+    "formData": {
+      "text$en": "Hello",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-05-17T08:06:21.806Z",
+    "modifiedOn": "2019-05-20T18:17:20.670Z"
+  },
+  {
+    "id": "builtin_text-TCIfkg",
+    "formData": {
+      "text$en": "Good! And your age?",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-05-17T08:10:18.075Z",
+    "modifiedOn": "2019-05-20T18:17:20.677Z"
+  },
+  {
+    "id": "builtin_text-oKOWiD",
+    "formData": {
+      "text$en": "Your result is 0 points",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-05-17T12:18:09.502Z",
+    "modifiedOn": "2019-05-20T18:17:20.684Z"
+  },
+  {
+    "id": "builtin_text-85BlSB",
+    "formData": {
+      "text$en": "Is it okay?\n{{ session.response.message}}",
+      "variations$en": [],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-30T17:54:47.771Z",
+    "modifiedOn": "2019-07-09T11:57:09.932Z"
+  },
+  {
+    "id": "builtin_text-pY9TIn",
+    "formData": {
+      "text$en": "Cool!",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T11:58:13.802Z",
+    "modifiedOn": "2019-07-09T11:58:13.802Z"
+  },
+  {
+    "id": "builtin_text-z5cu4g",
+    "formData": {
+      "text$en": "Let's go!",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T12:06:29.914Z",
+    "modifiedOn": "2019-07-09T12:06:29.914Z"
+  }
+]

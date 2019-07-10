@@ -1,0 +1,177 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": [],
+    "onReceive": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "user.score == undefined",
+          "node": "ask-gender"
+        },
+        {
+          "condition": "true",
+          "node": "ask-gender"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-l0g3bz"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "6e0038cbb6",
+      "name": "ask-gender",
+      "next": [
+        {
+          "condition": "true",
+          "node": "ask-age"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_card-v6iWI6"
+      ],
+      "onReceive": [
+        "say #!builtin_text-pY9TIn",
+        "diabot-quiz/sendAnswer {\"ses\":\"test\",\"eve\":\"hahaha\"}",
+        "say #!builtin_text-z5cu4g"
+      ]
+    },
+    {
+      "id": "52b38bdd12",
+      "name": "ask-age",
+      "next": [
+        {
+          "condition": "true",
+          "node": "ask-bmi2"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_card-OQ95SE"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"age\",\"value\":\"{{event.payload.text}}\"}"
+      ]
+    },
+    {
+      "id": "510ea76d11",
+      "name": "ask-bmi2",
+      "next": [
+        {
+          "condition": "true",
+          "node": "ask-waist"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_card-5xs9w8"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"bmi\",\"value\":\"{{event.payload.text}}\"}"
+      ]
+    },
+    {
+      "id": "abd80d82c7",
+      "name": "ask-waist",
+      "next": [
+        {
+          "condition": "true",
+          "node": "ask-blood-pressure-medication"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_card-9moHxS"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"waist\",\"value\":\"{{event.payload.text}}\"}"
+      ]
+    },
+    {
+      "id": "44f034a0d3",
+      "name": "ask-blood-pressure-medication",
+      "next": [
+        {
+          "condition": "true",
+          "node": "ask-glucose"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_card-C6tGXA"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"blood_pressure_medication\",\"value\":\"{{event.payload.text}}\"}"
+      ]
+    },
+    {
+      "id": "e6e2f7b3f4",
+      "name": "ask-glucose",
+      "next": [
+        {
+          "condition": "true",
+          "node": "ask-physical-activity"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_card-lr1jbR"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"glucose\",\"value\":\"{{event.payload.text}}\"}"
+      ]
+    },
+    {
+      "id": "3b41fe8a45",
+      "name": "ask-physical-activity",
+      "next": [
+        {
+          "condition": "true",
+          "node": "ask-fruits"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_card-x3b~S0"
+      ],
+      "onReceive": []
+    },
+    {
+      "id": "542983ca65",
+      "name": "ask-fruits",
+      "next": [
+        {
+          "condition": "true",
+          "node": "ask-diabetes-history"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_card-BuAZEG"
+      ],
+      "onReceive": []
+    },
+    {
+      "id": "a75ceb1e01",
+      "name": "ask-diabetes-history",
+      "next": [
+        {
+          "condition": "true",
+          "node": "show-result"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_card-Nz_FkI"
+      ],
+      "onReceive": []
+    },
+    {
+      "id": "99ae3159a2",
+      "name": "show-result",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-oKOWiD"
+      ],
+      "onReceive": null
+    }
+  ]
+}

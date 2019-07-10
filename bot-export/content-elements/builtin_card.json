@@ -1,0 +1,197 @@
+[
+  {
+    "id": "builtin_card-v6iWI6",
+    "formData": {
+      "title$en": "Hello, may I know your gender first, please?",
+      "actions$en": [
+        {
+          "title": "Male",
+          "action": "Postback",
+          "text": "#!builtin_card-OQ95SE",
+          "payload": "{ data: { gender: 'm' }}"
+        },
+        {
+          "title": "Female",
+          "action": "Postback",
+          "text": "#!builtin_card-OQ95SE",
+          "payload": "{ data: { gender: 'f' }}"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-05-17T08:01:28.986Z",
+    "modifiedOn": "2019-06-25T20:42:48.935Z"
+  },
+  {
+    "id": "builtin_card-OQ95SE",
+    "formData": {
+      "title$en": "And your age?",
+      "actions$en": [
+        {
+          "title": "< 45",
+          "action": "Say something"
+        },
+        {
+          "title": "45 - 54",
+          "action": "Say something"
+        },
+        {
+          "title": "55 - 64",
+          "action": "Say something"
+        },
+        {
+          "title": "64 +",
+          "action": "Say something"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-05-17T12:02:36.163Z",
+    "modifiedOn": "2019-05-20T18:17:20.610Z"
+  },
+  {
+    "id": "builtin_card-5xs9w8",
+    "formData": {
+      "title$en": "What is your BMI?",
+      "actions$en": [
+        {
+          "title": "<25",
+          "action": "Say something"
+        },
+        {
+          "title": "25 - 30",
+          "action": "Say something"
+        },
+        {
+          "title": "30+",
+          "action": "Say something"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-05-17T12:05:09.844Z",
+    "modifiedOn": "2019-05-20T18:17:20.617Z"
+  },
+  {
+    "id": "builtin_card-9moHxS",
+    "formData": {
+      "title$en": "What is your waist circumference?",
+      "actions$en": [
+        {
+          "title": "<94",
+          "action": "Say something"
+        },
+        {
+          "title": "94  - 102",
+          "action": "Say something"
+        },
+        {
+          "title": "102+",
+          "action": "Say something"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-05-17T12:09:30.905Z",
+    "modifiedOn": "2019-05-20T18:17:20.628Z"
+  },
+  {
+    "id": "builtin_card-C6tGXA",
+    "formData": {
+      "title$en": "Do you use any blood pressure medications?",
+      "actions$en": [
+        {
+          "title": "Yes",
+          "action": "Say something"
+        },
+        {
+          "title": "No",
+          "action": "Say something"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-05-17T12:11:17.955Z",
+    "modifiedOn": "2019-05-20T18:17:20.635Z"
+  },
+  {
+    "id": "builtin_card-lr1jbR",
+    "formData": {
+      "title$en": "Do you have history of high blood glucose?",
+      "actions$en": [
+        {
+          "title": "Yes",
+          "action": "Say something"
+        },
+        {
+          "title": "No",
+          "action": "Say something"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-05-17T12:13:01.793Z",
+    "modifiedOn": "2019-05-20T18:17:20.643Z"
+  },
+  {
+    "id": "builtin_card-x3b~S0",
+    "formData": {
+      "title$en": "How often do you exercise?",
+      "actions$en": [
+        {
+          "title": "< 4 hours / week",
+          "action": "Say something"
+        },
+        {
+          "title": "4 + hours / week",
+          "action": "Say something"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-05-17T12:14:31.515Z",
+    "modifiedOn": "2019-05-20T18:17:20.650Z"
+  },
+  {
+    "id": "builtin_card-BuAZEG",
+    "formData": {
+      "title$en": "Do you consume vegetables, fruits or berries on a daily basis?",
+      "actions$en": [
+        {
+          "title": "Yes",
+          "action": "Say something"
+        },
+        {
+          "title": "No",
+          "action": "Say something"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-05-17T12:15:29.398Z",
+    "modifiedOn": "2019-05-20T18:17:20.657Z"
+  },
+  {
+    "id": "builtin_card-Nz_FkI",
+    "formData": {
+      "title$en": "Do you have someone on your family with history of diabetes?",
+      "actions$en": [
+        {
+          "title": "No",
+          "action": "Say something"
+        },
+        {
+          "title": "Yes, 2nd degree relative",
+          "action": "Say something"
+        },
+        {
+          "title": "Yes, 1st degree relative",
+          "action": "Say something"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-05-17T12:17:24.452Z",
+    "modifiedOn": "2019-05-20T18:17:20.664Z"
+  }
+]
